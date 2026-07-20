@@ -97,7 +97,7 @@ export default function SubscriptionPage() {
         <CardContent>
           {!subscription ? (
             <div className="text-center py-8 space-y-4">
-              <p className="text-muted-foreground">You don't have an active subscription.</p>
+              <p className="text-muted-foreground">You don&apos;t have an active subscription.</p>
               <Button onClick={() => window.location.href = '/plans'}>View Plans</Button>
             </div>
           ) : (
